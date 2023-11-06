@@ -4,7 +4,7 @@
 title: vec2pt
 author: vlmarch
 phone: ""
-email: "vlmarch@protonmail.com"
+email: "vec2pt@outlook.com"
 url: "https://vlmarch.github.io"
 baseurl: ""
 source: ./
@@ -14,11 +14,6 @@ description: Vladyslav M. Personal Website
 github_username: vlmarch
 linkedin_username: vladyslav-m
 vimeo_username: vlmarch
-
-
-# github_url: https://github.com/vlmarch
-# linkedin_url: https://linkedin.com/in/vladyslav-m
-# vimeo_url: "https://vimeo.com/vlmarch"
 
 
 theme: null
