@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<article>
+  <h2 class="post-title">{{ page.title | escape }} (<time datetime="{{ page.date | date_to_xmlschema }}">{%- assign
+      date_format = site.date_format -%}
+      {{ page.date | date: site.date_format }}</time>)</h2>
+
+  {%- if page.img -%}
+  <img src="{{ page.img | escape }}" alt="{{ page.title | escape }}">
+  {%- endif -%}
+  {%- if page.tags.size > 0 -%}<p>{% for tag in page.tags %}[<a href="{{ site.base_url }}/tags/#{{ tag }}">{{
+      tag }}</a>]{% endfor %} </p>{%-
+  endif -%}
+
+
+  {{ content }}
+</article>

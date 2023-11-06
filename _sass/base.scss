@@ -1,9 +1,78 @@
-$backgroundColor: #ffffff;
-$bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+// Colors
+$whiteColor: #ffffff;
+$grey0Color: #e5e5e5;
+$grey1Color: #cbcbcb;
+$grey2Color: #b2b2b2;
+$grey3Color: #9a9a9a;
+$grey4Color: #828282;
+$grey5Color: #6c6c6c;
+$grey6Color: #565656;
+$grey7Color: #404040;
+$grey8Color: #2c2c2c;
+$grey9Color: #1a1a1a;
+$blackColor: #000000;
+
+// Fonts
+// $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$bodyFont: Space Mono, monospace;
+
 
 body {
-  background: $backgroundColor;
-  color: $bodyColor;
+  background: $whiteColor;
+  color: $blackColor;
   font-family: $bodyFont;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 2rem 2rem;
+}
+
+
+p {
+  text-align: justify;
+  text-justify: auto;
+}
+
+a {
+  color: $grey9Color;
+}
+
+a:hover {
+  color: $grey4Color;
+}
+
+img {
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: thin solid $grey0Color;
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
+
+
+code {
+  background: $grey0Color;
+}
+
+div.highlighter-rouge code {
+  display: block;
+  padding: 1rem;
+}
+
+
+canvas {
+  display: block;
+  margin: auto;
 }

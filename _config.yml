@@ -1,3 +1,47 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+# https://jekyllrb.com/docs/configuration/default/
+
+
+title: vec2pt
+author: vlmarch
+phone: ""
+email: "vec2pt@outlook.com"
+# source: ./
+baseurl: ""
+url: "https://vlmarch.github.io"
+description: vlmarch Personal Website
+
+
+github_username: vlmarch
+linkedin_username: vladyslav-m
+vimeo_username: vlmarch
+
+
+theme: null
+timezone: Europe/Warsaw
+date_format: "%Y"
+
+markdown: kramdown
+highlighter: rouge
+
+sass:
+  style: compressed
+
+# plugins:
+#   - jekyll-feed
+#   - jekyll-seo-tag
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - LICENSE
+  - README.md
+  - TODO.md
+
+defaults:
+  -
+    scope:
+      type: posts
+    values:
+      layout: post
+      permalink: ./projects/:title:output_ext
