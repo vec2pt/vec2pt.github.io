@@ -1,0 +1,49 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author }}">
+  <meta name="keywords"
+    content="{%- if site.tags.size > 0 -%}{% for tag in site.tags %}{{ tag[0] }} {% endfor %}{%- endif -%}">
+  <title>{{ page.title }} - {{ site.title }}</title>
+
+  <!-- Icons - https://favicon.io/-->
+  <!-- <link rel="icon" type="image/x-icon" href="{{ 'assets/images/favicons/favicon.ico' | relative_url }}"/> -->
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="{{ 'assets/images/favicons/favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16"
+    href="{{ 'assets/images/favicons/favicon-16x16.png' | relative_url }}">
+  <link rel="shortcut icon" href="{{ 'assets/images/favicons/favicon.ico' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="{{ 'assets/images/favicons/apple-touch-icon.png' | relative_url }}">
+  <!-- <link rel="manifest" href={{ 'assets/images/favicons/site.webmanifest' | relative_url }}> -->
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+  <!-- Google Fonts - Space Mono -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space Mono">
+
+  <!-- Open Graph -->
+  <!-- https://ogp.me/ -->
+  <meta property="og:title" content="{{ page.title }} - {{ site.title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:image" content="{{ 'assets/favicons/favicon.ico' | relative_url }}" />
+
+  <!-- Twitter Cards -->
+  <!-- https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ page.title }} - {{ site.title }}" />
+  <meta name="twitter:description" content="{{ site.description }}" />
+  <meta name="twitter:image" content="{{ 'assets/favicons/favicon.ico' | relative_url }}" />
+
+  <!-- MathJax -->
+  <script>MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }, svg: { fontCache: 'global' } };</script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <!-- p5.js -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+</head>
