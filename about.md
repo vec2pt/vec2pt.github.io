@@ -7,7 +7,7 @@ permalink: /about
 (WIP)
 
 
-<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+<!-- <a href="mailto:{{ site.email }}">{{ site.email }}</a> -->
 
 
 Warsaw. Poland.
