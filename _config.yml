@@ -6,9 +6,9 @@ author: vlmarch
 phone: ""
 email: "vec2pt@outlook.com"
 url: "https://vlmarch.github.io"
-baseurl: ""
+baseurl: "https://vlmarch.github.io/"
 source: ./
-description: Vladyslav M. Personal Website
+description: vlmarch Personal Website
 
 
 github_username: vlmarch
