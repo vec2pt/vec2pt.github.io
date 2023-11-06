@@ -5,9 +5,9 @@ title: vec2pt
 author: vlmarch
 phone: ""
 email: "vec2pt@outlook.com"
-url: "https://vlmarch.github.io"
-baseurl: "https://vlmarch.github.io/"
 source: ./
+baseurl: ""
+url: "https://vlmarch.github.io"
 description: vlmarch Personal Website
 
 
