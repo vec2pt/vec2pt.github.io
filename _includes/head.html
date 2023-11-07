@@ -30,17 +30,21 @@
   <meta property="og:title" content="{{ page.title }} - {{ site.title }}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <!-- <meta property="og:image"
+    content="{% if page.img %} {{ page.img | relative_url }} {% else %} {{ 'assets/favicons/favicon.ico' | relative_url }} {% endif %}" /> -->
   <meta property="og:image"
-    content="{% if page.img %} {{ page.img | relative_url }} {% else %} {{ 'assets/favicons/favicon.ico' | relative_url }} {% endif %}" />
-
+    content="{% if page.img %} {{ page.img | relative_url }} {% else %} {{ 'assets/favicons/android-chrome-512x512.png' | relative_url }} {% endif %}" />
 
   <!-- Twitter Cards -->
   <!-- https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="{{ page.title }} - {{ site.title }}" />
   <meta name="twitter:description" content="{{ site.description }}" />
+  <!-- <meta property="twitter:image"
+    content="{% if page.img %} {{ page.img | relative_url }} {% else %} {{ 'assets/favicons/favicon.ico' | relative_url }} {% endif %}" /> -->
   <meta property="twitter:image"
-    content="{% if page.img %} {{ page.img | relative_url }} {% else %} {{ 'assets/favicons/favicon.ico' | relative_url }} {% endif %}" />
+    content="{% if page.img %} {{ page.img | relative_url }} {% else %} {{ 'assets/favicons/android-chrome-512x512.png' | relative_url }} {% endif %}" />
+
 
 
   <!-- MathJax -->
