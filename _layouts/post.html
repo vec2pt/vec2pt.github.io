@@ -10,7 +10,7 @@ layout: default
   {%- if page.img -%}
   <img src="{{ page.img | escape }}" alt="{{ page.title | escape }}">
   {%- endif -%}
-  {%- if page.tags.size > 0 -%}<p>{% for tag in page.tags %}[<a href="{{ site.base_url }}/tags/#{{ tag }}">{{
+  {%- if page.tags.size > 0 -%}<p>{% for tag in page.tags %}[<a href="{{ site.base_url }}/tags#{{ tag }}">{{
       tag }}</a>]{% endfor %} </p>{%-
   endif -%}
 
