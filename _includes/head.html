@@ -30,8 +30,8 @@
   <meta property="og:title" content="{{ page.title }} - {{ site.title }}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ page.url | absolute_url }}" />
-  <!-- <meta property="og:image" content="{{ 'assets/favicons/favicon.ico' | relative_url }}" /> -->
-  <meta property="og:image" content="{{ page.img | relative_url }}" />
+  <meta property="og:image"
+    content="{% if page.img %} {{ page.img | relative_url }} {% else %} {{ 'assets/favicons/favicon.ico' | relative_url }} {% endif %}" />
 
 
   <!-- Twitter Cards -->
@@ -39,8 +39,8 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="{{ page.title }} - {{ site.title }}" />
   <meta name="twitter:description" content="{{ site.description }}" />
-  <!-- <meta name="twitter:image" content="{{ 'assets/favicons/favicon.ico' | relative_url }}" /> -->
-  <meta name="twitter:image" content="{{ page.img | relative_url }}" />
+  <meta property="twitter:image"
+    content="{% if page.img %} {{ page.img | relative_url }} {% else %} {{ 'assets/favicons/favicon.ico' | relative_url }} {% endif %}" />
 
 
   <!-- MathJax -->
