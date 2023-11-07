@@ -5,8 +5,13 @@ tags: sketch
 img: ../assets/images/times-table.png
 ---
 
-```python
+- Tools: Python, JavaScript, p5.js
+- Source code: [https://github.com/vlmarch/py-sketches](https://github.com/vlmarch/py-sketches)
+- Inspirations:
+    - [Times Tables, Mandelbrot and the Heart of Mathematics](https://www.youtube.com/watch?v=qhbuKbxJsk8)
 
+
+```python
 from pathlib import Path
 
 import matplotlib
@@ -64,9 +69,6 @@ if __name__ == "__main__":
     export_times_table()
 
 ```
-
-Inspiration: [Times Tables, Mandelbrot and the Heart of Mathematics](https://www.youtube.com/watch?v=qhbuKbxJsk8)
-
 
 <div>
     <script src="../assets/js/times-table.js"></script>

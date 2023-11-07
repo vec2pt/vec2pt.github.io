@@ -5,6 +5,10 @@ tags: sketch
 img: ../assets/images/chaos-game-sierpinski-triangle.png
 ---
 
+- Tools: Python
+- Source code: [https://github.com/vlmarch/py-sketches](https://github.com/vlmarch/py-sketches)
+- Inspirations:
+    - [Chaos Game - Numberphile](https://www.youtube.com/watch?v=kbKtFN71Lfs)
 
 ```python
 import matplotlib
@@ -34,5 +38,3 @@ if __name__ == "__main__":
     plt.scatter(*np.transpose(points), c="k", s=2)
     plt.show()
 ```
-
-Inspiration: [Chaos Game - Numberphile](https://www.youtube.com/watch?v=kbKtFN71Lfs)

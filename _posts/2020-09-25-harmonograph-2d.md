@@ -5,8 +5,10 @@ tags: sketch
 img: ../assets/images/harmonograph-2d.png
 ---
 
-Links:
-- [Wikipedia - Harmonograph](https://en.wikipedia.org/wiki/Harmonograph)
+- Tools: Python
+- Source code: [https://github.com/vlmarch/py-sketches](https://github.com/vlmarch/py-sketches)
+- Links:
+    - [Wikipedia - Harmonograph](https://en.wikipedia.org/wiki/Harmonograph)
 
 
 ```python

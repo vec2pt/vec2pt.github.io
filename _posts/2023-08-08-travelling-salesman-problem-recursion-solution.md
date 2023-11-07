@@ -5,7 +5,10 @@ tags: sketch
 img: ../assets/images/travelling-salesman-problem.png
 ---
 
-[Wikipedia - Travelling salesman problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
+- Tools: Python
+- Source code: [https://github.com/vlmarch/py-sketches](https://github.com/vlmarch/py-sketches)
+- Links:
+    - [Wikipedia - Travelling salesman problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
 
 
 ```python

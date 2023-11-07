@@ -5,9 +5,11 @@ tags: sketch
 img: ../assets/images/fractals-by-ifs.png
 ---
 
-Links:
-- [Wikipedia - Iterated function system](https://en.wikipedia.org/wiki/Iterated_function_system)
-- [What is an IFS? + Examples](https://cs.lmu.edu/~ray/notes/ifs/)
+- Tools: Python
+- Source code: [https://github.com/vlmarch/py-sketches](https://github.com/vlmarch/py-sketches)
+- Links:
+    - [Wikipedia - Iterated function system](https://en.wikipedia.org/wiki/Iterated_function_system)
+    - [What is an IFS? + Examples](https://cs.lmu.edu/~ray/notes/ifs/)
 
 ```python
 import itertools
@@ -95,6 +97,3 @@ if __name__ == "__main__":
 
 Randomly generated fractals:
 ![Alt text](../assets/images/fractals-by-ifs3.png)
-
-
-[Source Code](https://github.com/vlmarch/py-sketches/tree/main)

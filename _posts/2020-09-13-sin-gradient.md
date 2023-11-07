@@ -5,6 +5,9 @@ tags: sketch
 img: ../assets/images/sin-gradient.png
 ---
 
+- Tools: Python
+- Source code: [https://github.com/vlmarch/py-sketches](https://github.com/vlmarch/py-sketches)
+
 ```python
 import matplotlib
 import matplotlib.pyplot as plt

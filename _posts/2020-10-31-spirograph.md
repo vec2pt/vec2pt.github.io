@@ -5,11 +5,13 @@ tags: sketch
 img: ../assets/images/spirograph.png
 ---
 
-Links:
-- [Wikipedia - Spirograph](https://en.wikipedia.org/wiki/Spirograph)
-- [Wikipedia - Hypocycloid](https://en.wikipedia.org/wiki/Hypocycloid)
-- [Wikipedia - Deltoid curve](https://en.wikipedia.org/wiki/Deltoid_curve)
-- [Wikipedia - Hypotrochoid](https://en.wikipedia.org/wiki/Hypotrochoid)
+- Tools: Python
+- Source code: [https://github.com/vlmarch/py-sketches](https://github.com/vlmarch/py-sketches)
+- Links:
+    - [Wikipedia - Spirograph](https://en.wikipedia.org/wiki/Spirograph)
+    - [Wikipedia - Hypocycloid](https://en.wikipedia.org/wiki/Hypocycloid)
+    - [Wikipedia - Deltoid curve](https://en.wikipedia.org/wiki/Deltoid_curve)
+    - [Wikipedia - Hypotrochoid](https://en.wikipedia.org/wiki/Hypotrochoid)
 
 ```python
 import matplotlib

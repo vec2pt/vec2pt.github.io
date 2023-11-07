@@ -4,7 +4,10 @@ title: "Tower of Hanoi (Recursive solution)"
 tags: sketch
 ---
 
-[Wikipedia - Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
+- Tools: Python
+- Source code: [https://github.com/vlmarch/py-sketches](https://github.com/vlmarch/py-sketches)
+- Links:
+    - [Wikipedia - Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
 
 
 ```python
