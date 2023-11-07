@@ -5,7 +5,7 @@ title: vec2pt
 author: vlmarch
 phone: ""
 email: "vec2pt@outlook.com"
-# source: ./
+source: ./
 baseurl: ""
 url: "https://vlmarch.github.io"
 description: vlmarch Personal Website
@@ -24,6 +24,7 @@ markdown: kramdown
 highlighter: rouge
 
 sass:
+  sass_dir: _sass
   style: compressed
 
 # plugins:
