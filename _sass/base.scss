@@ -24,10 +24,18 @@ body {
   font-size: 0.9rem;
   line-height: 1.1rem;
   margin: 0 auto;
-  max-width: 720px;
+  max-width: 680px;
   padding: 2rem 2rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5rem;
+}
 
 p {
   text-align: justify;
@@ -42,7 +50,8 @@ a:hover {
   color: $grey4Color;
 }
 
-img {
+img,
+canvas {
   margin: auto;
   display: block;
   max-width: 100%;
@@ -68,11 +77,27 @@ code {
 
 div.highlighter-rouge code {
   display: block;
+  overflow-x: auto;
   padding: 1rem;
 }
 
 
-canvas {
-  display: block;
-  margin: auto;
+.projects-flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.projects-flex-items {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.projects-flex-subitems {
+  flex-wrap: nowrap;
+  margin: 0.075rem;
+  text-align: left;
 }

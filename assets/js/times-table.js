@@ -8,10 +8,10 @@
 let x, y, radius, segments, factor;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(300, 300);
   x = width / 2;
   y = height / 2;
-  radius = 175;
+  radius = 140;
   segments = 200;
   factor = -26;
   frameRate(13);
