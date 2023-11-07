@@ -4,19 +4,20 @@ layout: default
 
 <article>
   <h2>Projects</h2>
-  <ul class="posts">
+  <div class="projects-flex-container">
     {%- for post in site.posts -%}
-    <li>
-      <p style="margin:0;display:inline;float:left"><time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date
+    <div class="projects-flex-items">
+
+      <p class="projects-flex-subitems"><time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date
           | date: site.date_format }}</time> - <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       </p>
 
-      {%- if post.tags.size > 0 -%} <p style="margin:0;display:inline;float:right">{% for tag in post.tags %}[<a
-          href="tags/#{{ tag }}">{{
-          tag }}</a>]{% endfor %} </p>{%-
-      endif -%}
+      {%- if post.tags.size > 0 -%}
+      <p class="projects-flex-subitems">{% for tag in post.tags %}[<a href="tags/#{{ tag }}">{{ tag }}</a>]{% endfor %}
+      </p>
+      {%- endif -%}
 
-    </li>
+    </div>
     {%- endfor -%}
-  </ul>
+  </div>
 </article>
