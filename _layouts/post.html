@@ -7,12 +7,17 @@ layout: default
       date_format = site.date_format -%}
       {{ page.date | date: site.date_format }}</time>)</h2>
 
-  {%- if page.img -%}
+  {% if page.img %}
+  {% if page.img contains '://' %}
+  <img src="{{ page.img }}" alt="{{ page.title | escape }}">
+  {% else %}
   <img src="{{ page.img | escape }}" alt="{{ page.title | escape }}">
-  {%- endif -%}
-  {%- if page.tags.size > 0 -%}<p>{% for tag in page.tags %}[<a href="{{ site.base_url }}/tags#{{ tag }}">{{
+  {% endif %}
+  {% endif %}
+
+  {% if page.tags.size > 0 -%}<p>{% for tag in page.tags %}[<a href="{{ site.base_url }}/tags#{{ tag }}">{{
       tag }}</a>]{% endfor %} </p>{%-
-  endif -%}
+  endif %}
 
 
   {{ content }}
