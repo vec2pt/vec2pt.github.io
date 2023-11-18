@@ -49,8 +49,8 @@ if __name__ == "__main__":
     plt.show()
 ```
 
-![sin-gradient1](../assets/images/sin-gradient1.png)
+![sin-gradient1.png](../assets/images/sin-gradient1.png)
 
-![sin-gradient3](../assets/images/sin-gradient3.png)
+![sin-gradient3.png](../assets/images/sin-gradient3.png)
 
-![sin-gradient2](../assets/images/sin-gradient2.png)
+![sin-gradient2.png](../assets/images/sin-gradient2.png)

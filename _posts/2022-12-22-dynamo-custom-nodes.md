@@ -29,7 +29,7 @@ Several simple custom nodes for [Dynamo](https://dynamobim.org).
 - Linked elements selectors
 - etc.
 
-![dynamo-nodes01.png](../assets/images/dynamo-nodes01.png)
+![dynamo-nodes1.png](../assets/images/dynamo-nodes1.png)
 
 ## License
 

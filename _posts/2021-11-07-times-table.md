@@ -70,6 +70,9 @@ if __name__ == "__main__":
 
 ```
 
+![times-table1.png](../assets/images/times-table1.png)
+
+
 <div>
     <script src="../assets/js/times-table.js"></script>
 </div>

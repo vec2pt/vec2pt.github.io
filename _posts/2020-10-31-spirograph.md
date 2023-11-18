@@ -74,10 +74,10 @@ if __name__ == "__main__":
     plt.plot(x, y, c="k", linewidth=0.2)
     plt.show()
 ```
-<!-- ![Alt text](../assets/images/spirograph01.svg) -->
+<!-- ![spirograph1.svg](../assets/images/spirograph1.svg) -->
 
-<!-- ![Alt text](../assets/images/spirograph02.svg) -->
+<!-- ![spirograph2.svg(../assets/images/spirograph2.svg) -->
 
-![Alt text](../assets/images/spirograph03.svg)
+![spirograph3.svg](../assets/images/spirograph3.svg)
 
-![Alt text](../assets/images/spirograph04.svg)
+![spirograph3.svg](../assets/images/spirograph4.svg)

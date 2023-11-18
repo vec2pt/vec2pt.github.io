@@ -97,4 +97,4 @@ if __name__ == "__main__":
 ```
 
 Randomly generated:
-![Alt text](../assets/images/harmonograph-2d2.png)
+![harmonograph-2d1.png](../assets/images/harmonograph-2d1.png)

@@ -93,7 +93,7 @@ if __name__ == "__main__":
 ```
 
 "Classic" fractals:
-![Alt text](../assets/images/fractals-by-ifs2.png)
+![fractals-by-ifs1.png](../assets/images/fractals-by-ifs1.png)
 
 Randomly generated fractals:
-![Alt text](../assets/images/fractals-by-ifs3.png)
+![fractals-by-ifs2.png](../assets/images/fractals-by-ifs2.png)
