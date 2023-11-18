@@ -14,10 +14,12 @@ title: Projects
       </p>
 
       {%- if post.tags.size > 0 -%}
-      <p class="projects-flex-subitems">{% for tag in post.tags %}[<a href="tags/#{{ tag }}">{{ tag }}</a>]{% endfor %}
+      <!-- <p class="projects-flex-subitems">{% for tag in post.tags %}[<a href="tags#{{ tag }}">{{ tag }}</a>]{% endfor %} -->
+      <p class="projects-flex-subitems">{% for tag in post.tags %}[<a href="{{ 'tags' | absolute_url }}">{{ tag
+          }}</a>]{% endfor %}
       </p>
       {%- endif -%}
-
+      <!-- absolute_url -->
     </div>
     {%- endfor -%}
   </div>
