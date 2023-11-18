@@ -6,6 +6,7 @@ img: ../assets/images/favicons/favicon-32x32.png
 ---
 
 <!-- img: 200x200 and preferably 1500x1500 -->
+<!-- 1500 x 450 -->
 
 - Type of project: AAA
 - Project stage: Prototype
