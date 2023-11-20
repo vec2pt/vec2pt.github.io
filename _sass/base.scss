@@ -89,15 +89,36 @@ div.highlighter-rouge code {
   justify-content: flex-start;
 }
 
-.projects-flex-items {
+
+@mixin project-flex-items {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.projects-flex-subitems {
+.project-flex-items-in-list {
+  @include project-flex-items;
+}
+
+.project-flex-items {
+  @include project-flex-items;
+  padding: 0.25em;
+  // padding-bottom: 0.25em;
+  margin-bottom: 2em;
+  border-bottom: $grey9Color solid 1px;
+}
+
+
+.project-flex-subitems {
   flex-wrap: nowrap;
-  margin: 0.075rem;
+  margin-bottom: 0.075rem;
   text-align: left;
+}
+
+.project-image {
+  width: 100%;
+  max-height: 210px;
+  object-fit: scale-down;
+  // object-fit: scale;
 }
