@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dynamo Custom Nodes"
-tags: dymano
+tags: dynamo
 img: ../assets/images/dynamo-nodes.png
 ---
 

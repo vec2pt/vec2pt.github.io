@@ -4,6 +4,7 @@ title: About
 permalink: /about
 ---
 
+## Contact
 
 <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 
