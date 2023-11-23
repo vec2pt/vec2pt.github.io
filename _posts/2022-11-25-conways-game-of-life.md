@@ -19,7 +19,7 @@ A simple application to vizualize (and more) the [Conway's Game of Life](https:/
 
 The application allows you to export the game (to a json file), import (from json and cells files) and simple editing.
 
-## Keyboard Shortcuts
+### Keyboard Shortcuts
 
 | Shortcut | Command |
 | ------- | -------- |
@@ -30,13 +30,13 @@ The application allows you to export the game (to a json file), import (from jso
 | <kbd>space</kbd> | Running / Pausing the game. |
 | <kbd>Mouse left-click</kbd> | Changes the state of the cell. |
 
-## Screenshots
+### Screenshots
 
 ![conways-game-of-life1.gif](https://github.com/vlmarch/game-of-life/raw/main/img/conways-game-of-life1.gif)
 
 ![conways-game-of-life2.gif](https://github.com/vlmarch/game-of-life/raw/main/img/conways-game-of-life2.gif)
 
 
-## License
+### License
 
 Distributed under the MIT License.
