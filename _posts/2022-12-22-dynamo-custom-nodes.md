@@ -2,7 +2,7 @@
 layout: post
 title: "Dynamo Custom Nodes"
 tags: dynamo
-img: ../assets/images/dynamo-nodes.png
+img: https://github.com/vlmarch/dynamo-v-nodes/raw/main/img/dynamo-nodes.png
 ---
 
 - Tools: Dynamo, Python + Revit API
@@ -29,7 +29,7 @@ Several simple custom nodes for [Dynamo](https://dynamobim.org).
 - Linked elements selectors
 - etc.
 
-![dynamo-nodes1.png](../assets/images/dynamo-nodes1.png)
+![dynamo-nodes1.png](https://github.com/vlmarch/dynamo-v-nodes/raw/main/img/dynamo-nodes1.png)
 
 ### License
 
