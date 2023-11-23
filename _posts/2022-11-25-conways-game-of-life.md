@@ -23,10 +23,10 @@ The application allows you to export the game (to a json file), import (from jso
 
 | Shortcut | Command |
 | ------- | -------- |
-| <kbd>ctrl</kbd><kbd>n</kbd> | Create a new game. |
-| <kbd>ctrl</kbd><kbd>s</kbd> | Save as... |
-| <kbd>ctrl</kbd><kbd>o</kbd> | Open the game. |
-| <kbd>ctrl</kbd><kbd>q</kbd> | Quit. |
+| <kbd>ctrl</kbd> + <kbd>n</kbd> | Create a new game. |
+| <kbd>ctrl</kbd> + <kbd>s</kbd> | Save as... |
+| <kbd>ctrl</kbd> + <kbd>o</kbd> | Open the game. |
+| <kbd>ctrl</kbd> + <kbd>q</kbd> | Quit. |
 | <kbd>space</kbd> | Running / Pausing the game. |
 | <kbd>Mouse left-click</kbd> | Changes the state of the cell. |
 
