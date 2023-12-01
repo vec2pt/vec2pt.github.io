@@ -14,7 +14,7 @@ img: ../assets/images/streamdeck.png
 
 | Item | Quantity | Description |
 | --- | :-: | --- |
-| 1 | 1 | Arduino PRO Micro ATmega32U4 AVR Leonardo 5V 16MHZ |
+| 1 | 1 | Arduino Pro Micro ATmega32U4 5V 16MHz |
 | 2 | 8 | Tact Switch 12x12 |
 | 3 | 1 | ACS PCB6X8 |
 
