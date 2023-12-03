@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DIY Stream Deck"
-tags: electronics
+tags: hardware
 img: ../assets/images/streamdeck.png
 ---
 
