@@ -26,13 +26,13 @@ which was originally created by Forrest Mims.
 | # |Reference |Qty|Value                   |Footprint                                                              |
 |---|----------|:-:|------------------------|-----------------------------------------------------------------------|
 |1  |C1        |1  |100u                    |CP_Radial_D6.3mm_P2.50mm                         |
-|2  |C2        |1  |10n                     |Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm                             |
-|3  |C3        |1  |100n                    |Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm                             |
+|2  |C2        |1  |10n                     |C_Disc_D3.4mm_W2.1mm_P2.50mm                             |
+|3  |C3        |1  |100n                    |C_Disc_D3.4mm_W2.1mm_P2.50mm                             |
 |4  |C4        |1  |10u                     |CP_Radial_D5.0mm_P2.50mm                         |
-|5  |D1, D2    |2  |1N4007                  |Diode_THT:D_A-405_P10.16mm_Horizontal                                  |
-|6  |D3        |1  |LED                     |LED_THT:LED_D3.0mm                                                     |
+|5  |D1, D2    |2  |1N4007                  |D_A-405_P10.16mm_Horizontal                                  |
+|6  |D3        |1  |LED                     |LED_D3.0mm                                                     |
 |7  |J1        |1  |Barrel_Jack_Switch      |BarrelJack_54-00166                              |
-|8  |J2        |1  |Conn_01x06_Male         |Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical             |
+|8  |J2        |1  |Conn_01x06_Male         |PinHeader_2x03_P2.54mm_Vertical             |
 |9  |J3, J4, J5|3  |AudioJack2_Ground_Switch|AudioJack_3.5                                    |
 |10 |R1, R2    |2  |1K                      |R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal|
 |11 |R3        |1  |10K                     |R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal|
