@@ -21,6 +21,12 @@ which was originally created by Forrest Mims.
 
 ![apc-schematic.png](../assets/images/apc-schematic.png)
 
+### Photos
+
+![apc1.jpg](../assets/images/apc1.jpg)
+
+<!-- ![apc2.jpg](../assets/images/apc2.jpg) -->
+
 ### BoM
 
 | # |Reference |Qty|Value                   |Footprint                                                              |
@@ -41,12 +47,6 @@ which was originally created by Forrest Mims.
 |14 |RV3       |1  |100K                    |P160                                             |
 |15 |SW1       |1  |SW_SPDT                 |MTS103                                           |
 |16 |U1        |1  |NE556                   |Package_DIP:DIP-14_W7.62mm                                             |
-
-### Photos
-
-![apc1.jpg](../assets/images/apc1.jpg)
-
-<!-- ![apc2.jpg](../assets/images/apc2.jpg) -->
 
 ### PCB
 
