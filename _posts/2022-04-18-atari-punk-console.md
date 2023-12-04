@@ -40,9 +40,9 @@ which was originally created by Forrest Mims.
 |7  |J1        |1  |Barrel_Jack_Switch      |BarrelJack_54-00166                              |
 |8  |J2        |1  |Conn_01x06_Male         |PinHeader_2x03_P2.54mm_Vertical             |
 |9  |J3, J4, J5|3  |AudioJack2_Ground_Switch|AudioJack_3.5                                    |
-|10 |R1, R2    |2  |1K                      |R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal|
-|11 |R3        |1  |10K                     |R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal|
-|12 |R4        |1  |4K7                     |R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal|
+|10 |R1, R2    |2  |1K                      |R_Axial_L6.3mm_D2.5mm_P10.16mm|
+|11 |R3        |1  |10K                     |R_Axial_L6.3mm_D2.5mm_P10.16mm|
+|12 |R4        |1  |4K7                     |R_Axial_L6.3mm_D2.5mm_P10.16mm|
 |13 |RV1, RV2  |2  |500K                    |P160                                             |
 |14 |RV3       |1  |100K                    |P160                                             |
 |15 |SW1       |1  |SW_SPDT                 |MTS103                                           |
