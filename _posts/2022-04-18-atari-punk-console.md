@@ -8,7 +8,7 @@ img: ../assets/images/apc.png
 - Project stage: Demo Edition
 - Tools: KiCad
 - Source code: [https://github.com/vlmarch/py-sketches](https://github.com/vlmarch/py-sketches)
-- Vimeo: [Vimeo](https://vimeo.com/vlmarch)
+- Vimeo: [Vimeo](https://vimeo.com/{{ site.vimeo_username }})
 - Photos by: [Iza Rzechuła](https://www.iza.rzechula.pl/)
 - Links:
     - [Wikipedia - Stepped-tone generator](https://en.wikipedia.org/wiki/Forrest_Mims#Stepped-tone_generator_(Atari_Punk_Console))
