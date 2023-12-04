@@ -12,7 +12,7 @@ img: ../assets/images/streamdeck.png
 
 ### BoM
 
-| Item | Quantity | Description |
+| # | Qty | Description |
 | --- | :-: | --- |
 | 1 | 1 | Arduino Pro Micro ATmega32U4 5V 16MHz |
 | 2 | 8 | Tact Switch 12x12 |
