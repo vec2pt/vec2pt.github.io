@@ -13,6 +13,8 @@ img: ../assets/images/favicons/favicon-32x32.png
 - Investor: AAA
 - Tools: Dynamo, Python + Revit API
 - Source code: [https://github.com/vlmarch/py-sketches](https://github.com/vlmarch/py-sketches)
+- Vimeo: [Vimeo](https://vimeo.com/vlmarch)
+- Photos by: [Iza Rzechuła](https://www.iza.rzechula.pl/)
 - Links:
     - link 1
     - link 2
