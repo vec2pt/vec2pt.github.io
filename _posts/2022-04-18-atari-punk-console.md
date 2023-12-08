@@ -5,7 +5,7 @@ tags: hardware
 img: ../assets/images/apc.png
 ---
 
-- Project stage: Demo Edition
+- Project stage: Beta Edition
 - Tools: KiCad
 - Vimeo: [Vimeo](https://vimeo.com/{{ site.vimeo_username }})
 - Photos by: [Iza Rzechuła](https://www.iza.rzechula.pl/)
