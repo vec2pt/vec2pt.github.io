@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MIDI Keyboard M1"
-tags: sketch
+tags: hardware
 img: ../assets/images/midi-keyboard-m1.png
 ---
 
