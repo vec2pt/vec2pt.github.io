@@ -52,4 +52,4 @@ which was originally created by Forrest Mims.
 ![apc-pcb.png](../assets/images/apc-pcb.png)
 
 ### Files
-- [20220418-apc.pdf](../assets/files/20220418-apc.pdf)
+- [20220418-apc-schematic.pdf](../assets/files/20220418-apc-schematic.pdf)
