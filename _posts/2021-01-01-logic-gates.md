@@ -33,7 +33,7 @@ Simple logic gates circuit.
 
 ![logic-gates-pcb.png](../assets/images/logic-gates-pcb.png)
 
-*The PCB has not been manufactured.
+\* The PCB has not been manufactured.
 
 
 ### Photos
