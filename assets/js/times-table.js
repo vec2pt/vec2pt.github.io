@@ -1,7 +1,5 @@
 /*
  * 20211107
- * Vladyslav M
- * https://github.com/vlmarch
  */
 
 
