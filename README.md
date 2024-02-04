@@ -1,2 +1,2 @@
-# vlmarch.github.io
+# vec2pt.github.io
 Personal Website
