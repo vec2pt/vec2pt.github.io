@@ -6,7 +6,7 @@ img: ../assets/images/chaos-game-sierpinski-triangle.png
 ---
 
 - Tools: Python
-- Source code: [https://github.com/vlmarch/py-sketches](https://github.com/vlmarch/py-sketches)
+- Source code: [https://github.com/vec2pt/py-sketches](https://github.com/vec2pt/py-sketches)
 - Inspirations:
     - [Chaos Game - Numberphile](https://www.youtube.com/watch?v=kbKtFN71Lfs)
 

@@ -2,11 +2,11 @@
 layout: post
 title: "Conway's Game Of Life"
 tags: software
-img: https://github.com/vlmarch/game-of-life/raw/main/img/conways-game-of-life.png
+img: https://github.com/vec2pt/game-of-life/raw/main/img/conways-game-of-life.png
 ---
 
 - Tools: Python + Tkinter
-- Source code: [https://github.com/vlmarch/game-of-life](https://github.com/vlmarch/game-of-life)
+- Source code: [https://github.com/vec2pt/game-of-life](https://github.com/vec2pt/game-of-life)
 - Links:
     - [Wikipedia - Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
     - [Wikipedia - Gun (cellular automaton)](https://en.wikipedia.org/wiki/Gun_(cellular_automaton))
@@ -32,9 +32,9 @@ The application allows you to export the game (to a json file), import (from jso
 
 ### Screenshots
 
-![conways-game-of-life1.gif](https://github.com/vlmarch/game-of-life/raw/main/img/conways-game-of-life1.gif)
+![conways-game-of-life1.gif](https://github.com/vec2pt/game-of-life/raw/main/img/conways-game-of-life1.gif)
 
-![conways-game-of-life2.gif](https://github.com/vlmarch/game-of-life/raw/main/img/conways-game-of-life2.gif)
+![conways-game-of-life2.gif](https://github.com/vec2pt/game-of-life/raw/main/img/conways-game-of-life2.gif)
 
 
 ### License

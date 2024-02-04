@@ -12,7 +12,7 @@ img: ../assets/images/favicons/favicon-32x32.png
 - Project stage: Prototype
 - Investor: AAA
 - Tools: Dynamo, Python + Revit API
-- Source code: [https://github.com/vlmarch/py-sketches](https://github.com/vlmarch/py-sketches)
+- Source code: [https://github.com/vec2pt/py-sketches](https://github.com/vec2pt/py-sketches)
 - Vimeo: [Vimeo](https://vimeo.com/{{ site.vimeo_username }})
 - Photos by: [Iza Rzechuła](https://www.iza.rzechula.pl/)
 - Links:

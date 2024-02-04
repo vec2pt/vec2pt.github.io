@@ -6,7 +6,7 @@ img: ../assets/images/fractals-by-ifs.png
 ---
 
 - Tools: Python
-- Source code: [https://github.com/vlmarch/py-sketches](https://github.com/vlmarch/py-sketches)
+- Source code: [https://github.com/vec2pt/py-sketches](https://github.com/vec2pt/py-sketches)
 - Links:
     - [Wikipedia - Iterated function system](https://en.wikipedia.org/wiki/Iterated_function_system)
     - [What is an IFS? + Examples](https://cs.lmu.edu/~ray/notes/ifs/)

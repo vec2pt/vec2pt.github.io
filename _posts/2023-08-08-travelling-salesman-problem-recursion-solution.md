@@ -6,7 +6,7 @@ img: ../assets/images/travelling-salesman-problem.png
 ---
 
 - Tools: Python
-- Source code: [https://github.com/vlmarch/py-sketches](https://github.com/vlmarch/py-sketches)
+- Source code: [https://github.com/vec2pt/py-sketches](https://github.com/vec2pt/py-sketches)
 - Links:
     - [Wikipedia - Travelling salesman problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
 

@@ -6,7 +6,7 @@ img: ../assets/images/image-glitcher.png
 ---
 
 - Tools: Python
-- Source code: [https://github.com/vlmarch/py-sketches](https://github.com/vlmarch/py-sketches)
+- Source code: [https://github.com/vec2pt/py-sketches](https://github.com/vec2pt/py-sketches)
 - Inspirations:
     - [ImageGlitcher](https://www.airtightinteractive.com/demos/js/imageglitcher/)
 

@@ -6,7 +6,7 @@ img: ../assets/images/times-table.png
 ---
 
 - Tools: Python, JavaScript, p5.js
-- Source code: [https://github.com/vlmarch/py-sketches](https://github.com/vlmarch/py-sketches)
+- Source code: [https://github.com/vec2pt/py-sketches](https://github.com/vec2pt/py-sketches)
 - Inspirations:
     - [Times Tables, Mandelbrot and the Heart of Mathematics](https://www.youtube.com/watch?v=qhbuKbxJsk8)
 
