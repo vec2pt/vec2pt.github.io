@@ -19,9 +19,9 @@ Mechanical one-octave MIDI keyboard with Pitch Wheel and Modulation Wheel. Micro
 | # | Reference                                                     | Qty | Value                 | Footprint                                         |
 |---|---------------------------------------------------------------|:---:|-----------------------|---------------------------------------------------|
 | 1 | A1                                                            | 1   | Sparkfun_Pro_Micro_5V | SparkFun_Pro_Micro                                |
-| 2 | D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12             | 12  | 1N4148                | D_DO-35_SOD27_P7.62mm_Horizontal                  |
-| 3 | J1                                                            | 1   | Conn_01x07_Pin        | PinHeader_1x07_P2.54mm_Vertical                   |
-| 4 | R1, R2, R3, R4                                                | 4   | 10K                   | R_Axial_DIN0207_Horizontal |
+| 2 | D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12             | 12  | 1N4148                | D_DO-35_SOD27_P7.62mm                  |
+| 3 | J1                                                            | 1   | Conn_01x07_Pin        | PinHeader_1x07_P2.54mm                   |
+| 4 | R1, R2, R3, R4                                                | 4   | 10K                   | R_Axial_DIN0207 |
 | 5 | RV1, RV2, RV3                                                 | 3   | 10K                   | Potentiometer_R9011                               |
 | 6 | RV4                                                           | 1   | 10K                   | Potentiometer_RM065                               |
 | 7 | SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12 | 12  | SW_Push               | SW_PUSH_6mm_H4.3mm                                |
