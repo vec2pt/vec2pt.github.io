@@ -71,11 +71,15 @@ td {
   border: thin solid $grey0Color;
   border-collapse: collapse;
   padding: 0.4rem;
+  font-size: 0.8rem;
+  line-height: 1rem;
 }
 
 
 code {
   background: #f2f2f2;
+  font-size: 0.75rem;
+  line-height: 0.95rem;
 }
 
 div.highlighter-rouge code {
