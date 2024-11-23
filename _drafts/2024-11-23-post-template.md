@@ -23,3 +23,5 @@ img: ../assets/images/favicons/favicon-32x32.png
     - inspiration 1
     - inspiration 2
     - inspiration 3
+- Dependencies
+    - link 1
