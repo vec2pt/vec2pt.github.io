@@ -5,7 +5,11 @@
   <meta name="author" content="{{ site.author }}">
   <meta name="keywords"
     content="{%- if site.tags.size > 0 -%}{% for tag in site.tags %}{{ tag[0] }} {% endfor %}{%- endif -%}">
+  {% if page.title %}
   <title>{{ page.title }} - {{ site.title }}</title>
+  {% else %}
+  <title>{{ site.title }}</title>
+  {% endif %}
 
   <!-- Icons - https://favicon.io/-->
   <!-- <link rel="icon" type="image/x-icon" href="{{ 'assets/images/favicons/favicon.ico' | relative_url }}"/> -->
