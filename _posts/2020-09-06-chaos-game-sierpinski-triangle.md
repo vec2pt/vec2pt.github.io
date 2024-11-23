@@ -3,6 +3,7 @@ layout: post
 title: "Chaos game - Sierpiński triangle"
 tags: sketch
 img: ../assets/images/chaos-game-sierpinski-triangle.png
+hidden: true
 ---
 
 - Tools: Python

@@ -3,6 +3,7 @@ layout: post
 title: "Pulse Generator 555"
 tags: hardware
 img: ../assets/images/pulse-generator.png
+hidden: true
 ---
 
 - Project stage: Prototype

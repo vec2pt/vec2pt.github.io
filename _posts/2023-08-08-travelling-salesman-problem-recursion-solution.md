@@ -3,6 +3,7 @@ layout: post
 title: "Travelling salesman problem"
 tags: sketch
 img: ../assets/images/travelling-salesman-problem.png
+hidden: true
 ---
 
 - Tools: Python

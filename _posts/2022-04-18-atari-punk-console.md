@@ -3,6 +3,7 @@ layout: post
 title: "Atari Punk Console"
 tags: hardware
 img: ../assets/images/apc.png
+hidden: true
 ---
 
 - Project stage: Beta Edition

@@ -3,6 +3,7 @@ layout: post
 title: "Fractals by IFS"
 tags: sketch
 img: ../assets/images/fractals-by-ifs.png
+hidden: true
 ---
 
 - Tools: Python

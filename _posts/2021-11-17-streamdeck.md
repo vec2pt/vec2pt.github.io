@@ -3,6 +3,7 @@ layout: post
 title: "DIY Stream Deck"
 tags: hardware
 img: ../assets/images/streamdeck.png
+hidden: true
 ---
 
 - Project stage: Prototype

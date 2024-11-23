@@ -3,6 +3,7 @@ layout: post
 title: "Logic gates"
 tags: hardware
 img: ../assets/images/logic-gates.png
+hidden: true
 ---
 
 - Project stage: Prototype

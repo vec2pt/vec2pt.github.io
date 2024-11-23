@@ -12,7 +12,7 @@ layout: default
   <div class="projects-flex-container">
     {%- for post in site.posts -%}
 
-    {% if post.img %}
+    {% if post.img and post.hidden != true %}
     <div class="project-flex-items">
 
       <div class="project-flex-subitems">

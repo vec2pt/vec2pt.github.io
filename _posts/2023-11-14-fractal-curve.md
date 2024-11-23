@@ -3,6 +3,7 @@ layout: post
 title: "Fractal curve"
 tags: sketch
 img: ../assets/images/fractal-curve.png
+hidden: true
 ---
 
 - Tools: Python

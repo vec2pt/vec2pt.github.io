@@ -3,6 +3,7 @@ layout: post
 title: "Recursion trees"
 tags: sketch
 img: ../assets/images/turtle-tree.png
+hidden: true
 ---
 
 - Tools: Python

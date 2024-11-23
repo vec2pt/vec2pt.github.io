@@ -3,6 +3,7 @@ layout: post
 title: "'sin' Gradient"
 tags: sketch
 img: ../assets/images/sin-gradient.png
+hidden: true
 ---
 
 - Tools: Python
