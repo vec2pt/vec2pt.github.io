@@ -9,7 +9,7 @@ img: ../assets/images/floor-plan-gan.png
 
 The purpose of this project is to design and analyze a method for generating apartment layouts using GAN generative networks, which can find application in real estate analysis and be a supporting tool for designers and architects.
 
-The Swiss Dwellings dataset [[1]](#1) was used for the project. One of the tasks was to analyze and prepare the dataset for the project. This work consisted of filtering out residential units from the dataset, validating the correctness of information about individual apartments, and transforming the tabular data into a image for learning.
+The Swiss Dwellings dataset [[1]](#1) was used for the project. One of the tasks was to analyze and prepare the dataset for the project. This work consisted of filtering out residential units from the dataset, validating the correctness of information about individual apartments, and transforming the tabular data into an image for learning.
 
 The main task was to develop and adapt the Pix2Pix-type GAN model proposed by Philipp Isola, Jun-Yan Zhu, Tinghui Zhou and Alexej A. Efros in the article “Image-to-Image Translation with Conditional Adversarial Networks” [[2]](#2). The entire proposed architecture consists of a U-Net-type generator and a PatchGAN-type discriminator [[3]](#3).
 
