@@ -3,10 +3,12 @@ layout: post
 title: "Post template"
 tags: sketch
 img: ../assets/images/favicons/favicon-32x32.png
+hidden: true
 ---
 
 <!-- img: 200x200 and preferably 1500x1500 -->
-<!-- 1500 x 450 -->
+<!-- 1500 x 450 (Old) -->
+<!-- 800 x 240 -->
 
 - Type of project: AAA
 - Project stage: Prototype
