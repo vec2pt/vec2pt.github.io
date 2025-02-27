@@ -7,6 +7,7 @@ img: ../assets/images/midi-keyboard-c1.png
 
 - Project stage: Beta Edition
 - Tools: KiCad, Arduino
+- Photos by: [Iza Rzechuła](https://www.iza.rzechula.pl/)
 
 
 Touch-sensitive, one-octave MIDI keyboard with Modulation Wheel. Microcontroller used: SparkFun Pro Micro - 5V/16MHz.
