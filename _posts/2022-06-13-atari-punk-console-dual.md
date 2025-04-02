@@ -16,6 +16,8 @@ img: ../assets/images/apc-dual.png
 This project is based on Atari Punk Console (Stepped Tone Generator),
 which was originally created by Forrest Mims.
 
+\* **NOTE**: This project was created for personal use only and is not commercial.
+
 ### Schematic
 
 ![apc-dual-schematic.png](../assets/images/apc-dual-schematic.png)

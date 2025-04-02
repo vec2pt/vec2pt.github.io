@@ -27,3 +27,7 @@ hidden: true
     - inspiration 3
 - Dependencies
     - link 1
+
+
+\* **NOTE**: This project was created for personal use only and is not commercial.
+<!-- \* **NOTE**: This project was created in a limited quantity for personal use and is not commercial. I do not sell the PCB or the assembled hardware. -->
