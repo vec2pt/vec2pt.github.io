@@ -12,7 +12,6 @@ img: ../assets/images/sketch-invaders-00.png
 
 ```python
 import numpy as np
-
 from PIL import Image
 
 
@@ -32,7 +31,6 @@ def space_invader(
 
     Returns:
         Image.Image: Invader image.
-
     """
     map_i = np.random.choice(
         np.arange(len(palette)), (int(size[0] / 2), size[1]), p=weights
