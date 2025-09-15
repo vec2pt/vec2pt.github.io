@@ -2,7 +2,7 @@
 layout: post
 title: "Space Invaders Generator"
 tags: sketch
-img: ../assets/images/invaders.png
+img: ../assets/images/sketch-invaders-00.png
 ---
 
 - Tools: Python
@@ -12,6 +12,7 @@ img: ../assets/images/invaders.png
 
 ```python
 import numpy as np
+
 from PIL import Image
 
 
@@ -21,7 +22,7 @@ def space_invader(
     weights: list[float] | None = None,
     scale: int = 1,
 ) -> Image.Image:
-    """Space Invader Generator
+    """Space Invader Generator.
 
     Args:
         size (tuple[int, int]): A 2-tuple, containing (width, height).
@@ -31,11 +32,11 @@ def space_invader(
 
     Returns:
         Image.Image: Invader image.
+
     """
     map_i = np.random.choice(
         np.arange(len(palette)), (int(size[0] / 2), size[1]), p=weights
     )
-    print(map_i)
     if size[0] % 2 != 1:
         map_i = np.concatenate((map_i, np.flipud(map_i)), axis=0).T
     else:
@@ -48,8 +49,7 @@ def space_invader(
     for i, color in enumerate(palette):
         img_array[map_i == i] = color
     img = Image.fromarray(img_array, "RGB")
-    img = img.resize((size[0] * scale, size[1] * scale), Image.Resampling.BOX)
-    return img
+    return img.resize((size[0] * scale, size[1] * scale), Image.Resampling.BOX)
 
 
 if __name__ == "__main__":
@@ -60,4 +60,4 @@ if __name__ == "__main__":
     space_invader_img.save("invader.png")
 ```
 
-![invaders1.png](../assets/images/invaders1.png)
+![sketch-invaders-01.png](../assets/images/sketch-invaders-01.png)
