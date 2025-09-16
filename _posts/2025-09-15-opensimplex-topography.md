@@ -9,6 +9,9 @@ img: ../assets/images/sketch-opensimplex-topography-00.png
 
 - Tools: Python
 - Source code: [https://github.com/vec2pt/py-sketches](https://github.com/vec2pt/py-sketches)
+- Links:
+    - [OpenSimplex noise](https://en.wikipedia.org/wiki/OpenSimplex_noise)
+    - [`opensimplex` for Python](https://pypi.org/project/opensimplex/)
 
 
 ```python

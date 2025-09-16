@@ -9,7 +9,10 @@ hidden: true
 - Tools: Python
 - Source code: [https://github.com/vec2pt/py-sketches](https://github.com/vec2pt/py-sketches)
 - Links:
-    - [Wikipedia - Fractal curve](https://en.wikipedia.org/wiki/Fractal_curve)
+    - [Fractal curve](https://en.wikipedia.org/wiki/Fractal_curve)
+    - [Dragon curve](https://en.wikipedia.org/wiki/Dragon_curve)
+    - [Koch snowflake](https://en.wikipedia.org/wiki/Koch_snowflake)
+    - [Lévy C curve](https://en.wikipedia.org/wiki/L%C3%A9vy_C_curve)
 
 ```python
 import matplotlib

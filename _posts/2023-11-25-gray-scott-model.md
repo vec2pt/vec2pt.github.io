@@ -8,6 +8,7 @@ img: ../assets/images/gray-scott-model.png
 - Tools: Python
 - Source code: [https://github.com/vec2pt/py-sketches](https://github.com/vec2pt/py-sketches)
 - Links:
+    - [Reaction–diffusion system](https://en.wikipedia.org/wiki/Reaction%E2%80%93diffusion_system)
     - [Gray-Scott Model of a Reaction-Diffusion System](https://itp.uni-frankfurt.de/~gros/StudentProjects/Projects_2020/projekt_schulz_kaefer/)
     - [Gray Scott Model of Reaction Diffusion](https://groups.csail.mit.edu/mac/projects/amorphous/GrayScott/)
     - [Reaction-Diffusion by the Gray-Scott Model: Pearson's Parametrization](https://www.mrob.com/pub/comp/xmorphia/index.html)
