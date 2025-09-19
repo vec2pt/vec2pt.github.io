@@ -12,9 +12,13 @@ $grey8Color: #2c2c2c;
 $grey9Color: #1a1a1a;
 $blackColor: #000000;
 
+$codeColor: #f2f2f2;
+
 // Fonts
 // $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-$bodyFont: Space Mono, monospace;
+$bodyFont: "Space Mono", monospace;
+$codeFont: "Inconsolata", monospace;
+// $codeFont: Courier New, Courier, monospace;
 
 
 body {
@@ -77,9 +81,12 @@ td {
 
 
 code {
-  background: #f2f2f2;
-  font-size: 0.75rem;
-  line-height: 0.95rem;
+  font-family: $codeFont;
+  background: $codeColor;
+  line-height: 0.97rem;
+  // For Courier New
+  // font-size: 0.75rem;
+  // line-height: 0.95rem;
 }
 
 div.highlighter-rouge code {
