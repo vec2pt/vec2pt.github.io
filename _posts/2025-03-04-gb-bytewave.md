@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bytewave (Game Boy ROM)"
-tags: gb software game
+tags: gb software
 img: https://github.com/vec2pt/gb-bytewave/raw/main/doc/gb-bytewave-00.png
 ---
 
