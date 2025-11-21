@@ -31,3 +31,27 @@ hidden: true
 
 \* **NOTE**: This project was created for personal use only and is not commercial.
 <!-- \* **NOTE**: This project was created in a limited quantity for personal use and is not commercial. I do not sell the PCB or the assembled hardware. -->
+
+
+
+
+<!-- Example JavaScript script – how to display a file with code. -->
+<!--
+
+<div class="language-python highlighter-rouge">
+<div class="highlight">
+<pre class="highlight"><code id="github-file" ></code></pre>
+</div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+    const url = "https://raw.githubusercontent.com/vec2pt/py-sketches/refs/heads/main/ca_elementary.py";
+
+    const resp = await fetch(url);
+    const text = await resp.text();
+
+    document.getElementById("github-file").textContent = text;
+});
+</script>
+-->
