@@ -80,6 +80,11 @@ code {
   // line-height: 0.95rem;
 }
 
+hr {
+  border-style: none;
+  border-bottom: $foreground-light-color solid 1px;
+}
+
 div.highlighter-rouge code {
   display: block;
   overflow-x: auto;

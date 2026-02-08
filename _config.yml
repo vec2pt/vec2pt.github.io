@@ -1,6 +1,5 @@
 # https://jekyllrb.com/docs/configuration/default/
 
-
 title: vec2pt
 author: vec2pt
 phone: ""
@@ -8,13 +7,11 @@ email: "vec2pt@outlook.com"
 source: ./
 baseurl: ""
 url: "https://vec2pt.github.io"
-description: Portfolio of projects created by vec2pt.
+description: vec2pt's personal website
 
-
+# Social media
 github_username: vec2pt
-linkedin_username: vladyslav-m
-vimeo_username: vec2pt
-
+vimeo_username: xxx
 
 theme: null
 timezone: Europe/Warsaw
@@ -37,7 +34,6 @@ exclude:
   - gemfiles/
   - LICENSE
   - README.md
-  - TODO.md
 
 defaults:
   -
