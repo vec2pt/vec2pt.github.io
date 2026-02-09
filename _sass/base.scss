@@ -85,12 +85,18 @@ hr {
   border-bottom: $foreground-light-color solid 1px;
 }
 
+iframe {
+  // YouTube video player
+  display: block;
+  margin: 0 auto;
+  border-style:none;
+}
+
 div.highlighter-rouge code {
   display: block;
   overflow-x: auto;
   padding: 1rem;
 }
-
 
 .projects-flex-container {
   display: flex;

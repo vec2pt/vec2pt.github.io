@@ -18,10 +18,11 @@ which was originally created by Forrest Mims.
 
 \* **NOTE**: This project was created for personal use only and is not commercial.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tg3ve2fcLSw?si=ciH-qR6c2hOEJlkf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Schematic
 
 ![apc-dual-schematic.png](../assets/images/apc-dual-schematic.png)
-
 
 ### Photos
 
@@ -49,7 +50,6 @@ which was originally created by Forrest Mims.
 |14 |RV5               |1  |100K                    |Potentiometer_R9011                              |
 |15 |SW1               |1  |SW_DIP_x02              |SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm     |
 |16 |U1, U2            |2  |NE556                   |DIP-14_W7.62mm                                             |
-
 
 ### Files
 - [20220613-apc-dual-schematic.pdf](../assets/files/20220613-apc-dual-schematic.pdf)
