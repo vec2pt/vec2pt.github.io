@@ -14,7 +14,7 @@ Mechanical one-octave MIDI keyboard with Pitch Wheel and Modulation Wheel. Micro
 
 ![midi-keyboard-m1-schematic.png](../assets/images/midi-keyboard-m1-schematic.png)
 
-### BoM
+### Bill of Materials (BOM)
 
 | # | Reference                                                     | Qty | Value                 | Footprint                                         |
 |---|---------------------------------------------------------------|:---:|-----------------------|---------------------------------------------------|
@@ -199,7 +199,7 @@ void pitchBend(byte channel, int value) {
 }
 ```
 
-### PCB
+### PCB Design
 
 ![midi-keyboard-m1-pcb.png](../assets/images/midi-keyboard-m1-pcb.png)
 

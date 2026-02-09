@@ -18,7 +18,7 @@ Two typical pulse generators that I use in my projects.
 
 ![pulse-generator-a-schematic.png](../assets/images/pulse-generator-a-schematic.png)
 
-#### BoM
+#### Bill of Materials (BOM)
 
 |#  |Reference|Qty|Value         |
 |---|---------|:-:|--------------|
@@ -42,7 +42,7 @@ Two typical pulse generators that I use in my projects.
 
 ![pulse-generator-b-schematic.png](../assets/images/pulse-generator-b-schematic.png)
 
-#### BoM
+#### Bill of Materials (BOM)
 
 |#  |Reference|Qty|Value         |
 |---|---------|:-:|--------------|

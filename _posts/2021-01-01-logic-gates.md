@@ -15,7 +15,7 @@ hidden: true
 
 Simple logic gates circuit.
 
-### BoM
+### Bill of Materials (BOM)
 
 |#  |Reference                                |Qty|Value            |Footprint                                        |
 |---|-----------------------------------------|:-:|-----------------|-------------------------------------------------|
@@ -30,7 +30,7 @@ Simple logic gates circuit.
 |9  |U4                                       |1  |4030             |DIP-14_W7.62mm                                   |
 
 
-### PCB
+### PCB Design
 
 ![logic-gates-pcb.png](../assets/images/logic-gates-pcb.png)
 

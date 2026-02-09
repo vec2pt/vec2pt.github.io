@@ -11,7 +11,7 @@ hidden: true
 - Photos by: [Iza Rzechuła](https://www.iza.rzechula.pl/)
 
 
-### BoM
+### Bill of Materials (BOM)
 
 | # | Qty | Description |
 | --- | :-: | --- |

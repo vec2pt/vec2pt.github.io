@@ -29,7 +29,7 @@ which was originally created by Forrest Mims.
 
 ![apc-dual2.png](../assets/images/apc-dual2.png)
 
-### BoM
+### Bill of Materials (BOM)
 
 |#  |Reference         |Qty|Value                   |Footprint                                                              |
 |---|------------------|:-:|------------------------|-----------------------------------------------------------------------|

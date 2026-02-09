@@ -29,7 +29,7 @@ which was originally created by Forrest Mims.
 
 <!-- ![apc2.jpg](../assets/images/apc2.jpg) -->
 
-### BoM
+### Bill of Materials (BOM)
 
 | # |Reference |Qty|Value                   |Footprint                                                              |
 |---|----------|:-:|------------------------|-----------------------------------------------------------------------|
@@ -50,7 +50,7 @@ which was originally created by Forrest Mims.
 |15 |SW1       |1  |SW_SPDT                 |MTS103                                           |
 |16 |U1        |1  |NE556                   |Package_DIP:DIP-14_W7.62mm                                             |
 
-### PCB
+### PCB Design
 
 ![apc-pcb.png](../assets/images/apc-pcb.png)
 

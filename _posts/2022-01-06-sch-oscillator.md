@@ -24,7 +24,7 @@ This project is based on Hex Oscillator, which was originally created by Andreas
 
 ![sch-osc1.png](../assets/images/sch-osc1.png)
 
-### BoM
+### Bill of Materials (BOM)
 
 |#  |Reference                   |Qty|Value                   |Footprint                                                              |
 |---|----------------------------|:-:|------------------------|-----------------------------------------------------------------------|

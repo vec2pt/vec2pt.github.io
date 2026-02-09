@@ -17,7 +17,7 @@ Touch-sensitive, one-octave MIDI keyboard with Modulation Wheel. Microcontroller
 ![midi-keyboard-c1-schematic.png](../assets/images/midi-keyboard-c1-schematic.png)
 
 
-### BoM
+### Bill of Materials (BOM)
 
 |#  |Reference                                        |Qty|Value                |Footprint                                                              |
 |---|-------------------------------------------------|:-:|---------------------|-----------------------------------------------------------------------|
@@ -194,7 +194,7 @@ void controlChange(byte channel, byte control, byte value) {
 ![midi-keyboard-c12.png](../assets/images/midi-keyboard-c12.png)
 
 
-### PCB
+### PCB Design
 
 ![midi-keyboard-c1-pcb.png](../assets/images/midi-keyboard-c1-pcb.png)
 

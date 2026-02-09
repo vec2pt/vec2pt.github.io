@@ -26,7 +26,7 @@ which was originally created by Forrest Mims.
 
 ![apc-lfo1.png](../assets/images/apc-lfo1.png)
 
-### BoM
+### Bill of Materials (BOM)
 
 |#  |Reference         |Qty|Value                   |Footprint                                                              |
 |---|------------------|:-:|------------------------|-----------------------------------------------------------------------|
