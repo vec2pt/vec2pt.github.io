@@ -1,0 +1,94 @@
+---
+layout: default
+title: Portfolio
+---
+
+
+<article>
+  <h2>{{ page.title }}</h2>
+
+  <nav id="portfolio-toc">
+    <h3>Table of Contents</h3>
+
+    {% assign sorted_tags = site.tags | sort %}
+    {% for tag in sorted_tags %}
+    <p><b>[<a href="#tag-{{ tag[0] }}">{{ tag[0] }}</a>]</b></p>
+    <ul>
+        {% for post in tag[1] %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> </li>
+        {%- endfor -%}
+    </ul>
+    {%- endfor -%}
+
+    {% comment %}
+    <ul>
+      {% assign sorted_tags = site.tags | sort %}
+      {% for tag in sorted_tags %}
+      <li><b>[<a href="#tag-{{ tag[0] }}">{{ tag[0] }}</a>]</b></li>
+
+      <ul style="list-style: none;">
+        {% for post in tag[1] %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+        {%- endfor -%}
+      </ul>
+
+      {%- endfor -%}
+    </ul>
+    {% endcomment %}
+
+  </nav>
+
+
+  {% comment %}
+  <h3>Projects</h3>
+  {% endcomment %}
+
+  {% assign sorted_tags = site.tags | sort %}
+  {% for tag in sorted_tags %}
+
+
+  {% comment %}
+  <!-- TODO: h2 style -->
+  {% endcomment %}
+  <h2 id="tag-{{ tag[0] }}" style="text-align: center; padding: 10px; background-image: repeating-linear-gradient(45deg, #DDDDDD 0, #DDDDDD 1px, transparent 0, transparent 50%); background-size: 8px 8px;">[{{ tag[0] }}]</h2>
+
+  <div class="projects-flex-container">
+    {% for post in tag[1] %}
+
+    {% comment %}
+    <!-- TODO: Remove if post.img -->
+    {% endcomment %}
+    {% if post.img %}
+    <div class="project-flex-items">
+      <div class="project-flex-subitems">
+        <a href="{{ post.url | relative_url }}">
+          {% if post.img contains '://' %}
+          <img class="project-image" src="{{ post.img }}" alt="{{ post.title | escape }}">
+          {% else %}
+          <img class="project-image" src="{{ post.img | escape }}" alt="{{ post.title | escape }}">
+          {% endif %}
+        </a>
+      </div>
+
+
+      <div class="project-flex-subitems">
+        {% comment %}
+        <!-- <span><time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date
+            | date: site.date_format }}</time></span>
+        <span>-</span> -->
+        {% endcomment %}
+        <span><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></span>
+      </div>
+
+      {% comment %}
+      {{ post.content }}
+      {% endcomment %}
+
+    </div>
+    {% endif %}
+    {%- endfor -%}
+  </div>
+  {%- endfor -%}
+
+
+</article>
