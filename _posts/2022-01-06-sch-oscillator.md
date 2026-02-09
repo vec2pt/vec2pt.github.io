@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SCH Oscillator"
-tags: sketch
+tags: hardware
 img: ../assets/images/sch-osc.png
 ---
 
