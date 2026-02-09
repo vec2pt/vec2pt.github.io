@@ -57,14 +57,18 @@ canvas {
 }
 
 table {
-  width: 100%;
+  border: none;
+  border-collapse: collapse;
+  display: block;
+  max-width: 100%;
+  width: max-content;
+  margin: 0 auto;
+  overflow-x: auto;
 }
 
-table,
 th,
 td {
   border: thin solid $background-dark-color;
-  border-collapse: collapse;
   padding: 0.4rem;
   font-size: 0.8rem;
   line-height: 1rem;
