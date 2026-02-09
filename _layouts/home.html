@@ -27,16 +27,18 @@ layout: default
 
 
       <div class="project-flex-subitems">
+        {% comment %}
         <!-- <span><time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date
             | date: site.date_format }}</time></span>
         <span>-</span> -->
+        {% endcomment %}
         <span><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></span>
       </div>
 
       {%- if post.tags.size > 0 -%}
       <div class="project-flex-subitems">
         {% for tag in post.tags %}
-        <span>[<a href="tags#{{ tag }}">{{ tag }}</a>]</span>
+        <span>[<a href="tags#tag-{{ tag }}">{{ tag }}</a>]</span>
         {% endfor %}
       </div>
       {%- endif -%}

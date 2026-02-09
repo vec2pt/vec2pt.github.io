@@ -5,8 +5,9 @@ title: Tags
 
 <article>
   <h2>{{ page.title }}</h2>
-  {% for tag in site.tags %}
-  <p>[{{ tag[0] }}]</p>
+  {% assign sorted_tags = site.tags | sort %}
+  {% for tag in sorted_tags %}
+  <p id="tag-{{ tag[0] }}">[{{ tag[0] }}]</p>
   <ul>
     {% for post in tag[1] %}
     <li><time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: site.date_format }}</time> - <a
@@ -16,6 +17,7 @@ title: Tags
   </ul>
   {%- endfor -%}
 
+  {% comment %}
   <!-- <p>[unmarked]</p>
   <ul class="posts">
     {%- for post in site.posts -%}
@@ -27,4 +29,5 @@ title: Tags
     {% endif %}
     {%- endfor -%}
   </ul> -->
+  {% endcomment %}
 </article>

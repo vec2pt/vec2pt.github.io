@@ -1,5 +1,12 @@
 <header>
-  <!-- <p><b><a href="{{ '/' | relative_url }}">{{ site.title }}</a></b> / <a href="{{ page.url }}">{{ page.name }}</a></p> -->
+
+  {% comment %}
+  <!-- <p><b>
+    <a href="{{ '/' | relative_url }}">{{ site.title }}</a></b> /
+    <a href="{{ page.url }}">{{ page.name }}</a>
+  </p> -->
+  {% endcomment %}
+
   <p><b><a href="{{ '/' | relative_url }}">{{ site.title }}</a></b> /
     <a href="{{ '/projects' | relative_url }}">all_projects</a> /
     <a href="{{ '/tags' | relative_url }}">tags</a> /
