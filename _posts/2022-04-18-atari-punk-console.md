@@ -6,7 +6,7 @@ img: ../assets/images/apc.png
 hidden: true
 ---
 
-- Project stage: Beta Edition
+- Project stage: Prototype
 - Tools: KiCad
 - Vimeo: [Vimeo](https://vimeo.com/{{ site.vimeo_username }})
 - Photos by: [Iza Rzechuła](https://www.iza.rzechula.pl/)

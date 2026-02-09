@@ -5,7 +5,7 @@ tags: hardware
 img: ../assets/images/midi-keyboard-c1.png
 ---
 
-- Project stage: Beta Edition
+- Project stage: Prototype
 - Tools: KiCad, Arduino
 - Photos by: [Iza Rzechuła](https://www.iza.rzechula.pl/)
 
