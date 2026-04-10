@@ -2,6 +2,7 @@
 layout: post
 title: "DummyOSC (Game Boy ROM)"
 tags: gb software
+img: https://github.com/vec2pt/gb-dummyosc/raw/main/doc/gb-dummyosc-00.png
 ---
 
 - Tools: GBDK-2020
